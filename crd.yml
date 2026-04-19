@@ -37,7 +37,7 @@ jobs:
         shell: pwsh
         run: |
           # --code を貼り付けてください
-          $authCode = ""
+          $authCode = "DISPLAY= /opt/google/chrome-remote-desktop/start-host --code="4/0Aci98E-JghW9lN02KsKJ-kVyGAnozp-NshjLi-0lSQilG6N6ENqKlL3YW38JpeDvSZ5O5g" --redirect-url="https://remotedesktop.google.com/_/oauthredirect" --name=$(hostname)"
           
           $crdPath = "${env:ProgramFiles(x86)}\Google\Chrome Remote Desktop\CurrentVersion\remoting_start_host.exe"
           
